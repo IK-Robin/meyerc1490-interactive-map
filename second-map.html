@@ -149,8 +149,8 @@
       <div class="ikr_map_tooltip" id="ikr_map_tooltip"></div>
     </div>
     <!-- end  main map container  -->
-
-    <script src="./rcost-interactive-single-function.js"></script>
+<script src="./mapdata.js"></script>
+    <script src="../rcost-interactive-single-function.js"></script>
     <script>
       function getAllChildNodeIds(svgElement) {
         const childNodeIds = [];
@@ -183,107 +183,7 @@
       ];
 
 
-const mapData = [
-  {
-    "id": "southern_1",
-    "RegionName": "Southern",
-    "SiteName": "Access Community Health Centers - Dodgeville Dental Clinic",
-    "SiteAddress": "103 E Fountain St",
-    "HealthCenterName": "Access Community Health Centers",
-    "XCoordinate": "-90.12967068",
-    "YCoordinate": "42.95896703",
-    "website": "https://www.wphca.org/access-workforce",
-    "Region": "7"
-  },
-  {
-    "id": "southern_2",
-    "RegionName": "Southern",
-    "SiteName": "Access Community Health Centers - Sun Prairie Dental Clinic",
-    "SiteAddress": "1270 W Main St",
-    "HealthCenterName": "Access Community Health Centers",
-    "XCoordinate": "-89.23493629",
-    "YCoordinate": "43.17955567",
-    "website": "https://www.wphca.org/access-workforce",
-    "Region": "7"
-  },
-  {
-    "id": "southern_3",
-    "RegionName": "Southern",
-    "SiteName": "Access Community Health Centers - Wingra Family Medical Center",
-    "SiteAddress": "1102 S Park St",
-    "HealthCenterName": "Access Community Health Centers",
-    "XCoordinate": "-89.39768729",
-    "YCoordinate": "43.0553331",
-    "website": "https://www.wphca.org/access-workforce",
-    "Region": "7"
-  },
-  {
-    "id": "southern_4",
-    "RegionName": "Southern",
-    "SiteName": "Access Community Health Centers - William T. Evjue Clinic",
-    "SiteAddress": "3434 E Washington Ave",
-    "HealthCenterName": "Access Community Health Centers",
-    "XCoordinate": "-89.3294311",
-    "YCoordinate": "43.11393669",
-    "website": "https://www.wphca.org/access-workforce",
-    "Region": "7"
-  },
-  {
-    "id": "southern_5",
-    "RegionName": "Southern",
-    "SiteName": "Access Community Health Centers - Joyce & Marshall Erdman Clinic",
-    "SiteAddress": "2202 S Park St",
-    "HealthCenterName": "Access Community Health Centers",
-    "XCoordinate": "-89.3941264",
-    "YCoordinate": "43.04221517",
-    "website": "https://www.wphca.org/access-workforce",
-    "Region": "7"
-  },
-  {
-    "id": "southern_9",
-    "RegionName": "Southern",
-    "SiteName": "Beloit Area Community Health Center",
-    "SiteAddress": "55 Eclipse Ctr",
-    "HealthCenterName": "Community Health Systems",
-    "XCoordinate": "-89.03222843",
-    "YCoordinate": "42.51928914",
-    "website": "https://www.wphca.org/chs-workforce",
-    "Region": "7"
-  },
-  {
-    "id": "southern_79",
-    "RegionName": "Southern",
-    "SiteName": "Rock River Community Clinic - Watertown",
-    "SiteAddress": "132 Hospital Dr",
-    "HealthCenterName": "Rock River Community Clinic",
-    "XCoordinate": "-88.69903713",
-    "YCoordinate": "43.20087571",
-    "website": "https://www.wphca.org/rock-river-workforce",
-    "Region": "7"
-  },
-  {
-    "id": "southern_80",
-    "RegionName": "Southern",
-    "SiteName": "Rock River Community Clinic - Whitewater",
-    "SiteAddress": "1461 W Main St BLDG",
-    "HealthCenterName": "Rock River Community Clinic",
-    "XCoordinate": "-88.76337704",
-    "YCoordinate": "42.83557657",
-    "website": "https://www.wphca.org/rock-river-workforce",
-    "Region": "7"
-  },
-  {
-    "id": "southern_81",
-    "RegionName": "Southern",
-    "SiteName": "Rock River Community Clinic - Fort Atkinson",
-    "SiteAddress": "520 Handeyside Ln",
-    "HealthCenterName": "Rock River Community Clinic",
-    "XCoordinate": "-88.82912762",
-    "YCoordinate": "42.9351504",
-    "website": "https://www.wphca.org/rock-river-workforce",
-    "Region": "7"
-  }
-];
+
 function renderTooltipContent(mapD) {
   const siteName = mapD.SiteName || "";
   const healthCenter = mapD.HealthCenterName || "";
@@ -390,4 +290,3 @@ function renderTooltipContent(mapD) {
     </script>
   </body>
 </html>
-
