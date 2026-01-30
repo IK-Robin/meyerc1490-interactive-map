@@ -229,10 +229,12 @@ function renderTooltipContent(mapD) {
         onLotHoverIn: (el, mapD, ev) => {
           // applyStrokeHover(el,'highlight');
           el.style.fill = "rgba(115, 299, 213, 1";
+           el.style.strokeWidth = "1px";
         },
         onLotHoverOut: (el, mapD, ev) => {
           // clearStrokeHover(el,'highlight');
           el.style.fill = "";
+           el.style.strokeWidth = ".5px";
         },
       });
 

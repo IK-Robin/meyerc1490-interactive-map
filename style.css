@@ -218,7 +218,9 @@
   padding:20px  10px;
   margin: 0 auto;
   font-size: 16px;
-  font-family: 'Nunito';
+  /* font-family: 'Nunito'; */
+  font-family: Arial, Helvetica, sans-serif;
+
   text-align: left;
   line-height: 22px;
   background-color: #fff;
@@ -233,7 +235,8 @@
 #ikr_toltipMove p {
   margin: 4px 0;
   font-size: 12px;
-  font-family: 'halvetica', sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+
   color: #000;
   text-align: left;
 }
@@ -295,7 +298,8 @@
 	font-size: 24px;
 	margin: 15px auto;
 
-    font-family: 'Nunito';
+   font-family: Arial, Helvetica, sans-serif;
+
     font-weight: 700;
     text-transform: uppercase;
     font-size: 24px;
