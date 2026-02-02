@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,7 +12,6 @@
         margin: 0 auto;
       }
 
-     
       svg {
         width: 100%;
         height: 100%;
@@ -252,9 +251,10 @@
 
           discription:
             "Western Wisconsin, which is home to the driftless area, offers a unique landscape that you cannot find anywhere else in the state. The region is known for its curvy hills and stunning landscapes, and its small towns are steeped in history and charm. Western Wisconsin is full of hiking trails, wineries and breweries, and vibrant communities that are perfect for those seeking a close-knit, artistic atmosphere.",
-          logos: [
-            "./assets/logo/Scenic Bluffs_Logo.jpg",
-          ],
+          logos: ["./assets/logo/Scenic Bluffs_Logo.jpg"],
+
+          logo_urls: [" https://www.wphca.org/scenic-bluffs-workforce"],
+
           link: "./western.html",
         },
         {
@@ -266,9 +266,14 @@
           logos: [
             "./assets/logo/NorthLakes Community Clinic_Logo.jpg",
             "./assets/logo/Family Health Center_Logo.jpg",
-        
           ],
-              link: "./west-central.html",
+          logo_urls: [
+
+          "https://www.wphca.org/northlakes-workforce",
+            "https://www.wphca.org/fhc-workforce"
+          ],
+
+          link: "./west-central.html",
         },
         {
           id: "southern",
@@ -282,7 +287,14 @@
             "./assets/logo/CHC Logos_Rock River Logo.png",
             // "./assets/logo/",
           ],
-              link: "./southern.html",
+          logo_urls: ["https://www.wphca.org/access-workforce"
+            ,
+            "https://www.wphca.org/chs-workforce",
+            "https://www.wphca.org/rock-river-workforce"
+
+          ],
+
+          link: "./southern.html",
         },
         {
           id: "southeast",
@@ -291,15 +303,34 @@
           discription:
             "The southeast region of Wisconsin, anchored by Milwaukee, is a dynamic urban area that buzzes with activity. It boasts a rich cultural scene, a variety of dining options, and waterfront parks along Lake Michigan. The area offers diverse neighborhoods, top-notch schools, vibrant festivals, a thriving art community, and sports teams that create a lively atmosphere.",
           logos: [
-           
             "./assets/logo/Milwaukee Health Services Inc_Logo.jpg",
             "./assets/logo/Muslim Community and Health Center_Logo2.jpg",
             "./assets/logo/Outreach Community Health Systems_Logo2.jpg",
+
             "./assets/logo/CHC Logos_Pillar Logo.png",
+
             "./assets/logo/Progressive Community Health Centers_Logo.jpg",
+
             "./assets/logo/Sixteenth Street_Logo.jpg",
+
+            "./assets/logo/Gerald L. Ignace Indian Health Center_Logo.jpg",
           ],
-              link: "./southeast.html",
+          logo_urls: [
+            "https://www.wphca.org/mhsi-workforce",
+            "https://www.wphca.org/mchc-workforce",
+
+            "https://www.wphca.org/outreach-workforce",
+
+            "https://www.wphca.org/pillar-workforce",
+
+            "https://www.wphca.org/progressive-workforce",
+
+            "https://www.wphca.org/sixteenth-st-workforce",
+            "https://www.wphca.org/gliihc-workforce",
+
+          ],
+
+          link: "./southeast.html",
         },
         {
           id: "east-central",
@@ -307,13 +338,10 @@
 
           discription:
             "East central Wisconsin is also known as the Fox Valley and is centered around the Fox River and Lake Winnebago. The Fox Valley includes communities such as Appleton, Neenah, and Oshkosh. The area has a vibrant arts and culture scene, numerous parks and outdoor recreation opportunities along the Fox River, and a mix of urban amenities with a generally slower pace of life and shorter commutes than in bigger cities.",
-          logos: [
-          
-            "./assets/logo/CHC Logos_Partnership Logo.png",
-            
-            
-          ],
-              link: "./east-central.html",
+          logos: ["./assets/logo/CHC Logos_Partnership Logo.png"],
+          logo_urls: ["https://www.wphca.org/partnership-workforce"],
+
+          link: "./east-central.html",
         },
         {
           id: "central",
@@ -324,9 +352,15 @@
           logos: [
             "./assets/logo/Noble Community Clinic_Logo.jpg",
             "./assets/logo/Scenic Bluffs_Logo.jpg",
-        
           ],
-              link: "./central.html",
+          logo_urls: [
+            
+          "https://www.wphca.org/noble-workforce",
+          "https://www.wphca.org/scenic-bluffs-workforce",
+        
+        ],
+
+          link: "./central.html",
         },
         {
           id: "eastern",
@@ -338,9 +372,12 @@
           logos: [
             "./assets/logo/CHC Logos_Lakeshore Logo.png",
             "./assets/logo/NEW Community Clinic_Logo2.jpg",
-      
           ],
-              link: "./eastern.html",
+          logo_urls: ["https://www.wphca.org/lakeshore-workforce",
+            "https://www.wphca.org/new-workforce"
+          ],
+
+          link: "./eastern.html",
         },
         {
           id: "northeast",
@@ -349,12 +386,17 @@
           discription:
             "Northeastern Wisconsin, also known as the Northwoods by the locals, is a haven for outdoor enthusiasts. The area is full of evergreen forests, and the picturesque landscapes are perfect for hunting, fishing, and winter sports. The small towns of the area offer a tight-knit community vibe, while larger cities like Wausau provide residents with excellent amenities and cultural experiences.",
           logos: [
+            "./assets/logo/CHC Logos_Bridge Logo.png",
             "./assets/logo/Family Health Center_Logo.jpg",
             "./assets/logo/NorthLakes Community Clinic_Logo.jpg",
-            "./assets/logo/CHC Logos_Bridge Logo.png",
-           
           ],
-              link: "./northeast.html",
+          logo_urls: [
+            "https://www.wphca.org/bridge-workforce",
+            "https://www.wphca.org/fhc-workforce",
+            "https://www.wphca.org/northlakes-workforce",
+          ],
+
+          link: "./northeast.html",
         },
         {
           id: "northern",
@@ -364,35 +406,41 @@
             "Northern Wisconsin is a nature-lover's dream with 325 miles of pristine Lake Superior shoreline and an abundance of outdoor activities. The region is lush with towering forests, inland lakes, and waterfalls making it a great place for fishing, hunting, hiking, biking, snowmobiling, and more. The area is known for its strong tourism economy, affordable cost of living, and excellent quality of life – making Northern Wisconsin a great place to live and work!",
           logos: [
             "./assets/logo/Family Health Center_Logo.jpg",
-            "./assets/logo/CHC Logos_Lake Superior Logo.png",
-        
             "./assets/logo/NorthLakes Community Clinic_Logo.jpg",
+            "./assets/logo/CHC Logos_Lake Superior Logo.png",
+
           ],
-              link: "./northern.html",
+          logo_urls: [
+            
+          "https://www.wphca.org/fhc-workforce",
+          "https://www.wphca.org/northlakes-workforce",
+          "https://www.wphca.org/lakesuperior-workforce"
+        
+        ],
+
+          link: "./northern.html",
         },
       ];
 
       function renderTooltipContent(mapD) {
-        const title = mapD.id ? mapD.id.replace(/-/g, " ").toUpperCase() : "";
         const state_name = mapD.state_name || "";
-
         const discription = mapD.discription || "";
 
-        const logos = Array.isArray(mapD.logos)
-          ? mapD.logos
-          : mapD.logo
-          ? [mapD.logo]
-          : [];
+        const logos = Array.isArray(mapD.logos) ? mapD.logos : [];
+        const logoUrls = Array.isArray(mapD.logo_urls) ? mapD.logo_urls : [];
 
         const logosHTML = logos.length
           ? `
       <div class="tooltip-logos">
         ${logos
-          .map(
-            (logo) => `<a href="${mapD.link || "#"}" target="_blank">
-          <img src="${logo}" alt="logo" class="tooltip-logo" />
-          </a>`
-          )
+          .map((logo, index) => {
+            const url = logoUrls[index] || "#";
+            return `
+              <a href="${url}" target="_blank" rel="noopener noreferrer">
+                <img src="${logo}" alt="logo" class="tooltip-logo" />
+              </a>
+            `;
+          })
           .join("")}
       </div>
     `
@@ -401,14 +449,13 @@
         return `
     <div id="ikr_toltipMoveshow" class="ikr-tooltip">
 
-      <!-- Close Button -->
-      <button id="ikrTooltipCloseBtn" class="tooltip-close-btn" aria-label="Close tooltip">
-        ✕
-      </button>
+      <button id="ikrTooltipCloseBtn"
+        class="tooltip-close-btn"
+        aria-label="Close tooltip">✕</button>
 
       <h4 class="tooltip-title">${state_name}</h4>
-    
-    ${discription ? `<p>${discription}</p>` : ""}
+
+      ${discription ? `<p>${discription}</p>` : ""}
 
       ${logosHTML}
     </div>
